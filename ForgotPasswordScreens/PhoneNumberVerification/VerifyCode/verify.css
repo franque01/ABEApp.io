@@ -1,0 +1,10 @@
+label.verify-input{
+    flex-direction: row !important;
+    justify-content: space-between;
+    & input{text-align: center;
+        width: 3rem !important;
+        height: 3rem;
+        appearance: none !important;
+        font-size: var(--bg-txt-size);
+    }
+}

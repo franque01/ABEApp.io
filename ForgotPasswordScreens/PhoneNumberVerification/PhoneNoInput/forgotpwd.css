@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    background: none;
+    text-decoration: none;
+}
+:root{
+    --color-primary: green;
+    --color-text: rgb(0, 17, 0);
+    --sm-txt-size: 12px;
+    --md-txt-size: 14px;
+    --bg-txt-size: 16px;
+    --xbg-txt-size: 24px;
+
+}
+button{
+        position: relative;
+        outline: none;
+        appearance: none;
+        border: none;
+    & a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;     
+    }
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100dvh;
+    margin: 0px 1rem;
+}
+img.logo{
+    width: 40px;
+    margin-right: 0.5rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    color: var(--color-text);
+    font-size: var(--md-txt-size);
+    /* margin-top: 1.5rem; */
+    flex: 0.1 0.1 0%;
+}
+button.cancel{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: var(--md-txt-size);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex: 0.9 0.9 0%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    & div.cancel{
+        margin: 1.5rem 0px;
+    }
+    & h1, p{
+        text-align: center;
+        margin: .25rem 0px;
+    }
+    & p{
+        font-size: var(--bg-txt-size);
+    }
+    & h1{
+        font-size: var(--xbg-txt-size);
+    }
+    & form.formInp{
+        margin-top: .75rem;
+        display: flex;
+        flex-direction: column;
+        & label{
+            display: flex;
+            flex-direction: column;
+            margin: .5rem 0px;
+            font-size: var(--bg-txt-size);
+            font-weight: bolder;
+            & input{
+                border: 2px solid var(--color-text);
+                width: 100%;
+                height: 2.5rem;
+                margin: .5rem 0px;
+                font-size: 14px;
+                padding: 1rem;
+                border-radius: .5rem;
+                color: var(--color-text);
+                font-size: var(--md-txt-size);
+            }
+        }
+        & button{
+            background-color: var(--color-primary);
+            width: 100%;
+            height: 2.5rem;
+            border-radius: .5rem;
+            margin: 3rem 0px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+}
+@media (min-width: 700px){
+    section{
+        max-width: 45%;
+    }
+}
+@media (max-width: 700px){
+    section{
+        padding: 0rem 3rem;
+    }
+}
+@media (max-width: 414px) {
+    body{
+        min-width: 320px !important;
+    }
+    section{
+        padding: 0rem 0rem;
+    }
+}

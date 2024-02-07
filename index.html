@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login your account</title>
+    <link rel="stylesheet" href="/CreatAccountScreens/login/login.css">
+    <link rel="stylesheet" href="/CreatAccountScreens/LoadScreen/load.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> <!-- fonts -->
+    <link rel="stylesheet" href="/CreatAccountScreens/LoadScreen/load/loadSpinner.css">
+</head>
+<body>
+    <!-- load screen -->
+    <main class="load" id="load">
+        <div class="img">
+            <img src="/CreatAccountScreens/login/download.png" alt="logoImage">
+        </div>
+        <p>DEPARTMENT OF AGRICULTURAL ENGINEERING</p>
+        <div class="spinner">
+            <div class="load-spinner"></div>
+        </div>
+    </main>
+    <!-- end load screen -->
+
+    <main>
+        <header>
+            <img src="/CreatAccountScreens/login/download.png" alt="ABElogo" class="logo">
+            <span>Agricultural Engineering (ABE)</span>
+        </header>
+
+        <section class="welcome">
+            <h1>Welcome</h1>
+            <p class="logtxt">Login to access your Account</p>
+
+            <div class="loginCont">
+                <div class="loginArea">
+                    <form action="#">
+                        <label class="labelname">
+                            <p class="name">Full name</p>
+                            <input type="text" name="fullName" id="fullName" placeholder="Enter your full name">
+                        </label>
+                        <label>
+                            <p class="name">Reg. No.</p>
+                            <input type="password" name="regNo" id="pwd" placeholder="Enter your Reg no or password" >
+                            <span class="eyeIcon">
+                                <input type="checkbox" name="eye" id="eye">
+                                <label for="eye" class="txt eye">
+                                    <span class="txt"><i class="fa-solid fa-eye"></i></span>
+                                </label>
+                                <label for="eye" class="dot eye">
+                                    <span class="dot"><i class="fa-regular fa-eye-slash"></i></span>
+                                </label>
+                            </span>
+                        </label>
+                    </form>
+                    
+                </div>
+                <div class="forgotPwd">
+                    <a href="/ForgotPasswordScreens/PhoneNumberVerification/PhoneNoInput/forgotpwd.html">forgot password?</a>
+                </div>
+                <div class="btn"><button>Sign In</button></div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Don't have an Account? <a href="./signup/signup.html">Create an account</a></p>
+        </footer>
+    </main>
+
+    <script src="/CreatAccountScreens/login/script.js"></script>
+</body>
+</html>
