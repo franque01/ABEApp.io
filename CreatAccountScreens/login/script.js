@@ -1,7 +1,7 @@
 // for the loading screen
 const loadScreen = document.getElementById('load');
 
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         loadScreen.classList.add('load-display');
     }, 1000);
