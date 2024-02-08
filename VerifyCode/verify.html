@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Phone Number</title>
+    <link rel="stylesheet" href="../forgotPassword/forgotpwd.css">
+    <link rel="stylesheet" href="./verify.css">
+    <link rel="stylesheet" href="../load/loadSpinner.css">
+    <link rel="stylesheet" href="../LoadScreen/load.css">
+</head>
+<body>
+        <!-- load screen -->
+        <main class="load" id="load">
+            <div class="img">
+                <img src="../download.png" alt="logoImage">
+            </div>
+            <p>DEPARTMENT OF AGRICULTURAL ENGINEERING</p>
+            <div class="spinner">
+                <div class="load-spinner"></div>
+            </div>
+        </main>
+        <!-- end load screen -->
+    <main>
+        <header>
+            <img src="../download.png" alt="logoImg" class="logo">
+            Agricultural Engineering (ABE)
+        </header>
+
+        <section>
+            <div class="cancel">
+                <a href="/index.html"><button class="cancel">Cancel</button></a>
+            </div>
+
+            <h1>Phone Number Verification</h1>
+            <p>Input the 4-digit number that was sent to your phonw number to re-set your password</p>
+            <form class="formInp" action="#">
+                <label for="verify-input" class="verify-input">
+                    <input type="text" name="input-no" id="input-no">
+                    <input type="text" name="input-no" id="input-no">
+                    <input type="text" name="input-no" id="input-no">
+                    <input type="text" name="input-no" id="input-no">
+                </label>
+                <button><a href="../ResetPassword/reset.html">verify</a></button>
+            </form>
+        </section>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

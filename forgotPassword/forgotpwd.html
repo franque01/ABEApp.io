@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forgot password</title>
+    <link rel="stylesheet" href="./forgotpwd.css">
+    <link rel="stylesheet" href="../load/loadSpinner.css">
+    <link rel="stylesheet" href="../LoadScreen/load.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- load screen -->
+    <main class="load" id="load">
+        <div class="img">
+            <img src="../download.png" alt="logoImage">
+        </div>
+        <p>DEPARTMENT OF AGRICULTURAL ENGINEERING</p>
+        <div class="spinner">
+            <div class="load-spinner"></div>
+        </div>
+    </main>
+    <!-- end load screen -->
+    <main>
+        <header>
+            <img src="../download.png" alt="logoImg" class="logo">
+            Agricultural Engineering (ABE)
+        </header>
+
+        <section>
+            <div class="cancel">
+                <a href="/index.html"><button class="cancel">Cancel</button></a>
+            </div>
+
+            <h1>Phone Number Verification</h1>
+            <p>Input your phone number to create a new password.</p>
+            <form class="formInp" action="#">
+                <label for="input-no">
+                    Phone Number
+                    <input type="tel" name="input-no" id="input-no" placeholder="+234 -">
+                </label>
+                <button><a href="../VerifyCode/verify.html">Proceed</a></button>
+            </form>
+        </section>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

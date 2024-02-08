@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login your account</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../LoadScreen/load.css">
+    <link rel="stylesheet" href="../load/loadSpinner.css">
+</head>
+<body>
+    <!-- load screen -->
+    <main class="load" id="load">
+        <div class="img">
+            <img src="../download.png" alt="logoImage">
+        </div>
+        <p>DEPARTMENT OF AGRICULTURAL ENGINEERING</p>
+        <div class="spinner">
+            <div class="load-spinner"></div>
+        </div>
+    </main>
+    <!-- end load screen -->
+    <main>
+        <header>
+            <img src="../download.png" alt="ABElogo" class="logo">
+            <span>Agricultural Engineering (ABE)</span>
+        </header>
+
+        <section class="welcome">
+            <h1>Sign up</h1>
+            <p class="logtxt">Create an Account to get started</p>
+
+            <div class="loginCont">
+                <div class="loginArea">
+                    <label class="labelname">
+                        <p class="name">Full name</p>
+                        <input type="text" name="fullName" id="fullName" placeholder="Enter your full name">
+                    </label>
+                    <label for="selectOpt" class="select">
+                        Options
+                        <input type="text" name="selectInp" id="selectInp" disabled>
+                        <select name="selectOpt" id="selectOpt">
+                            <option value="#"></option>
+                            <option value="BRE">BRE (Bioresources Engineering)</option> 
+                            <option value="BRE">PME (pwer amd Machinery Engineering)</option>
+                            <option value="BRE">SWE (Soil and Water Engineering)</option>
+                        </select>
+                        <i class="fa-solid fa-angle-down angle-down"></i>
+                    </label>
+                    <label>
+                        <p class="name">Reg. No.</p>
+                        <input type="password" name="regNo" id="pwd" placeholder="Enter you Reg no or password" >
+                        <span class="eyeIcon">
+                            <input type="checkbox" name="eye" id="eye">
+                            <label for="eye" class="txt eye">
+                                <span class="txt"><i class="fa-solid fa-eye"></i></span>
+                            </label>
+                            <label for="eye" class="dot eye">
+                                <span class="dot"><i class="fa-regular fa-eye-slash"></i></span>
+                            </label>
+                        </span>
+                    </label>
+                </div>
+                <div class="btn"><a href="/index.html"><button>Sign In</button></a></div>
+            </div>
+        </section>
+        <section class="alumni">
+            <label for="alumni">
+                <input type="checkbox" name="alumni" id="alumni">
+                Alumni
+            </label>
+        </section>
+        <footer>
+            <p>Already have an Account? <a href="../index.html">Sign in</a></p>
+        </footer>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
