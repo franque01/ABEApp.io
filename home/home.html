@@ -6,6 +6,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="../LoadScreen/load.css">
     <link rel="stylesheet" href="../load/loadSpinner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> <!-- fonts -->
+    <link rel="stylesheet" href="./home.css">
 </head>
 <body>
     <!-- load screen -->
@@ -27,66 +29,78 @@
                 <img src="../download.png" alt="#" > 
                 Agricultural Engineering (ABE)
             </div>
-            <div class="search-cont">
+            <div class="search-cont bg-view">
                 <label class="search">
-                    <button class="search-icon"><!--icon-->S</button>
+                    <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
                     <input type="text" placeholder="Search for projects">
-                    <button class="filter-icon"><!--filter-icon-->F</button>
+                    <button class="filter-icon"><i class="fa-solid fa-filter"></i></button>
                 </label>
             </div>
             <div class="profileIcons">
-                <span class="bell"></span><!--bell icon-->B</span>
-                <div class="avatar" > 
-                    <img src="#" alt="avatar" class="headAvatar">
+                <button class="bell">
+                    <span class="red-dot"></span>
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                <div class="avatar" >
+                    <span class="cap"><i class="fa-solid fa-graduation-cap"></i></span> 
+                    <img src="../sampleAvatar.jpg" alt="avatar" class="headAvatar">
                 </div>
             </div>
         </header>
-
+        <header>
+            <div class="search-cont sm-view">
+                <label class="search">
+                    <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Search for projects">
+                    <button class="filter-icon"><i class="fa-solid fa-filter"></i></button>
+                </label>
+            </div>
+        </header>
         <section>
             <div class="profile">
-                <div>
-                    <img src="#" alt="#" class="profAvatar">
+                <div class="avatar-img">
+                    <img src="../sampleAvatar.jpg" alt="#" class="profAvatar">
                 </div>
                 <div class="info">
                     <h1>George Oluchukwu Nancy</h1>
                     <p>Design and Fabrication of a solar powered corn shelling machine</p>
                     <div class="date"><small>02 Nov 2023</small></div>
-                    <div>
+                    <div class="btn-save">
                         <a href="#"><button>Read Now</button></a>
-                        <span class="save"><!--save icon-->S</span>
+                        <span class="save"><i class="fa-regular fa-bookmark"></i></span>
                     </div>
                 </div>
             </div>
             <div class="profile">
-                <div>
-                    <img src="#" alt="#" class="profAvatar">
+                <div class="avatar-img">
+                    <img src="../sampleAvatar.jpg" alt="#" class="profAvatar">
                 </div>
                 <div class="info">
-                    <h1>George Oluchukwu Nancy</h1>
-                    <p>Design and Fabrication of a solar powered corn shelling machine</p>
+                    <h1>Moses Chibueze Ebenezer</h1>
+                    <p>Carbon Tracking in Poultery Farm</p>
                     <div class="date"><small>02 Nov 2023</small></div>
-                    <div>
+                    <div class="btn-save">
                         <a href="#"><button>Read Now</button></a>
-                        <span class="save"><!--save icon-->S</span>
+                        <span class="save"><i class="fa-regular fa-bookmark"></i></span>
                     </div>
                 </div>
             </div>
             <div class="profile">
-                <div>
-                    <img src="#" alt="#" class="profAvatar">
+                <div class="avatar-img">
+                    <img src="../sampleAvatar.jpg" alt="#" class="profAvatar">
                 </div>
                 <div class="info">
-                    <h1>George Oluchukwu Nancy</h1>
-                    <p>Design and Fabrication of a solar powered corn shelling machine</p>
+                    <h1>Rosemary Chidinma</h1>
+                    <p>Production of Palm Kernel shell Briquette as an Alternative Fuel Source</p>
                     <div class="date"><small>02 Nov 2023</small></div>
-                    <div>
+                    <div class="btn-save">
                         <a href="#"><button>Read Now</button></a>
-                        <span class="save"><!--save icon-->S</span>
+                        <span class="save"><i class="fa-regular fa-bookmark"></i></span>
                     </div>
                 </div>
             </div>
-            
         </section>
+
         <footer>
 
         </footer>
