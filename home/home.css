@@ -199,6 +199,7 @@ main{
     .sm-view{
         display: inline-block !important;
         flex: 1 1 0% !important;
+        min-width: 100dvw;
     }
     .logo{
         font-size: 2.5dvw;
@@ -210,7 +211,7 @@ main{
         min-width: 100dvw !important;
         font-size: 3.5vw;
     }
-    .btn-save{
+    .btn-save button{
         font-size: 3.5vw !important;
     }
     .save{
