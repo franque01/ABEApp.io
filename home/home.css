@@ -91,7 +91,7 @@ main{
                     height: .5rem;
                     background-color: red;
                     border-radius: 50%;
-                    transform: translateY(.5rem);
+                    transform: translateY(.7rem);
                 }
                 
                 & i{
@@ -172,9 +172,10 @@ main{
                 .btn-save{
                     display: flex;
                     justify-content: space-between;
+                    align-items: center;
                     & button{
                         background: green;
-                        padding: .5rem 1rem;
+                        padding: .3rem 1rem;
                         border-radius: .5rem;
                         font-size: var(--bg-txt-size);
                         color: white;
@@ -199,9 +200,25 @@ main{
         display: inline-block !important;
         flex: 1 1 0% !important;
     }
+    .logo{
+        font-size: 2.5dvw;
+    }
+
 }
-@media (max-width: 456px) {
+@media (max-width: 470px) {
     main{
-        min-width: 456px !important;
+        min-width: 100dvw !important;
+        font-size: 3.5vw;
+    }
+    .btn-save{
+        font-size: 3.5vw !important;
+    }
+    .save{
+        font-size: 5dvw !important;
+    }
+}
+@media (max-width: 355px) {
+    main{
+        min-width: 355px !important;
     }
 }
