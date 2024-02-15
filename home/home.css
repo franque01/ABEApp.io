@@ -198,8 +198,7 @@ main{
         display: none !important;
     }
     .sm-view{
-        display: inline-block !important;
-        width: 100dvw !important;
+        display: flex !important;
         flex: 1 1 0% !important;
     }
     .logo{
