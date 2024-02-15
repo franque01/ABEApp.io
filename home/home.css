@@ -140,12 +140,12 @@ main{
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
-            padding: 1.5rem 1rem;
-            padding-left: 0px !important;
+            padding: 1rem;
+            padding-left: 2rem !important;
             margin-bottom: 1.5rem;
             border-bottom: 1px solid rgba(1, 32, 1, 0.1);
             box-shadow: 0px 3px 3px 0px rgba(1, 32, 1, 0.1);
-
+            margin-left: -2rem;
             & div.avatar-img{
                 display: flex; 
 
@@ -199,8 +199,8 @@ main{
     }
     .sm-view{
         display: inline-block !important;
+        width: 100dvw !important;
         flex: 1 1 0% !important;
-        min-width: 100dvw;
     }
     .logo{
         font-size: 2.5dvw;
